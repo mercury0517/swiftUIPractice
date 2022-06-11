@@ -1,16 +1,38 @@
-//
-//  ContentView.swift
-//  SwiftUIPractice
-//
-//  Created by 伊原明宏 on 2022/06/11.
-//
-
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack(alignment: .leading) {
+            HStack {
+                Text("Hello, world!")
+                Text("Placeholder")
+                Text("Placeholder2")
+            }.padding()
+            HStack {
+                Text("Hello, world!")
+                Text("Placeholder")
+                Text("Placeholder2")
+            }.padding()
+            HStack {
+                Text("Sample")
+                    .font(.title)
+                    .fontWeight(.bold)
+                    .foregroundColor(Color.orange)
+                Text("Sample1")
+                Text("Sample2")
+            }.padding().background(.yellow)
+            Spacer()
+            Text("長めのテキスト長めのテキスト長めのテキスト")
+                .font(.system(size: 30.0))
+                .fontWeight(.bold)
+                .foregroundColor(Color.red)
+                .lineLimit(2)
+                .padding()
+                .frame(width: 300.0, height: 100.0)
+                .border(.green, width: 5.0)
+            Text("あああ").foregroundColor(.red) + Text("いいい").foregroundColor(.blue)
+            Spacer()
+        }
     }
 }
 
