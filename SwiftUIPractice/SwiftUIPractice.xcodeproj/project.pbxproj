@@ -11,6 +11,7 @@
 		607880BC2854764A00E84EF0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607880BB2854764A00E84EF0 /* ContentView.swift */; };
 		607880BE2854764D00E84EF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607880BD2854764D00E84EF0 /* Assets.xcassets */; };
 		607880C12854764D00E84EF0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607880C02854764D00E84EF0 /* Preview Assets.xcassets */; };
+		609F25492866CDDA002FF266 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609F25482866CDDA002FF266 /* MeetingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		607880BB2854764A00E84EF0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		607880BD2854764D00E84EF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		607880C02854764D00E84EF0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		609F25482866CDDA002FF266 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +53,11 @@
 		607880B82854764A00E84EF0 /* SwiftUIPractice */ = {
 			isa = PBXGroup;
 			children = (
-				607880B92854764A00E84EF0 /* SwiftUIPracticeApp.swift */,
-				607880BB2854764A00E84EF0 /* ContentView.swift */,
 				607880BD2854764D00E84EF0 /* Assets.xcassets */,
+				607880BB2854764A00E84EF0 /* ContentView.swift */,
 				607880BF2854764D00E84EF0 /* Preview Content */,
+				609F25482866CDDA002FF266 /* MeetingView.swift */,
+				607880B92854764A00E84EF0 /* SwiftUIPracticeApp.swift */,
 			);
 			path = SwiftUIPractice;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607880BC2854764A00E84EF0 /* ContentView.swift in Sources */,
+				609F25492866CDDA002FF266 /* MeetingView.swift in Sources */,
 				607880BA2854764A00E84EF0 /* SwiftUIPracticeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
