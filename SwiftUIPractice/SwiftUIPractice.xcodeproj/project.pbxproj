@@ -12,6 +12,10 @@
 		607880BE2854764D00E84EF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607880BD2854764D00E84EF0 /* Assets.xcassets */; };
 		607880C12854764D00E84EF0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607880C02854764D00E84EF0 /* Preview Assets.xcassets */; };
 		609F25492866CDDA002FF266 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609F25482866CDDA002FF266 /* MeetingView.swift */; };
+		609F254C286703BA002FF266 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609F254B286703BA002FF266 /* Theme.swift */; };
+		609F254E286704C0002FF266 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609F254D286704C0002FF266 /* DailyScrum.swift */; };
+		609F255028670539002FF266 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609F254F28670539002FF266 /* CardView.swift */; };
+		609F25522867072F002FF266 /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609F25512867072F002FF266 /* TrailingIconLabelStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +25,10 @@
 		607880BD2854764D00E84EF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		607880C02854764D00E84EF0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		609F25482866CDDA002FF266 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
+		609F254B286703BA002FF266 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		609F254D286704C0002FF266 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
+		609F254F28670539002FF266 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		609F25512867072F002FF266 /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,10 +62,13 @@
 			isa = PBXGroup;
 			children = (
 				607880BD2854764D00E84EF0 /* Assets.xcassets */,
+				609F254F28670539002FF266 /* CardView.swift */,
 				607880BB2854764A00E84EF0 /* ContentView.swift */,
-				607880BF2854764D00E84EF0 /* Preview Content */,
 				609F25482866CDDA002FF266 /* MeetingView.swift */,
+				609F254A2867035D002FF266 /* Models */,
+				607880BF2854764D00E84EF0 /* Preview Content */,
 				607880B92854764A00E84EF0 /* SwiftUIPracticeApp.swift */,
+				609F25512867072F002FF266 /* TrailingIconLabelStyle.swift */,
 			);
 			path = SwiftUIPractice;
 			sourceTree = "<group>";
@@ -68,6 +79,15 @@
 				607880C02854764D00E84EF0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		609F254A2867035D002FF266 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				609F254D286704C0002FF266 /* DailyScrum.swift */,
+				609F254B286703BA002FF266 /* Theme.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,9 +160,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				609F254E286704C0002FF266 /* DailyScrum.swift in Sources */,
 				607880BC2854764A00E84EF0 /* ContentView.swift in Sources */,
+				609F254C286703BA002FF266 /* Theme.swift in Sources */,
 				609F25492866CDDA002FF266 /* MeetingView.swift in Sources */,
+				609F255028670539002FF266 /* CardView.swift in Sources */,
 				607880BA2854764A00E84EF0 /* SwiftUIPracticeApp.swift in Sources */,
+				609F25522867072F002FF266 /* TrailingIconLabelStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
