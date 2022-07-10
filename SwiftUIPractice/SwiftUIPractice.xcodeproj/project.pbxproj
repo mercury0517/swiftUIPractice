@@ -16,6 +16,7 @@
 		609F254E286704C0002FF266 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609F254D286704C0002FF266 /* DailyScrum.swift */; };
 		609F255028670539002FF266 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609F254F28670539002FF266 /* CardView.swift */; };
 		609F25522867072F002FF266 /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609F25512867072F002FF266 /* TrailingIconLabelStyle.swift */; };
+		609F2554287AC782002FF266 /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609F2553287AC782002FF266 /* ScrumsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		609F254D286704C0002FF266 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 		609F254F28670539002FF266 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		609F25512867072F002FF266 /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
+		609F2553287AC782002FF266 /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				609F25482866CDDA002FF266 /* MeetingView.swift */,
 				609F254A2867035D002FF266 /* Models */,
 				607880BF2854764D00E84EF0 /* Preview Content */,
+				609F2553287AC782002FF266 /* ScrumsView.swift */,
 				607880B92854764A00E84EF0 /* SwiftUIPracticeApp.swift */,
 				609F25512867072F002FF266 /* TrailingIconLabelStyle.swift */,
 			);
@@ -163,6 +166,7 @@
 				609F254E286704C0002FF266 /* DailyScrum.swift in Sources */,
 				607880BC2854764A00E84EF0 /* ContentView.swift in Sources */,
 				609F254C286703BA002FF266 /* Theme.swift in Sources */,
+				609F2554287AC782002FF266 /* ScrumsView.swift in Sources */,
 				609F25492866CDDA002FF266 /* MeetingView.swift in Sources */,
 				609F255028670539002FF266 /* CardView.swift in Sources */,
 				607880BA2854764A00E84EF0 /* SwiftUIPracticeApp.swift in Sources */,
