@@ -4,7 +4,9 @@ import SwiftUI
 struct SwiftUIPracticeApp: App {
     var body: some Scene {
         WindowGroup {
-            ScrumsView(scrums: DailyScrum.sampleData)
+            NavigationView {            
+                ScrumsView(scrums: DailyScrum.sampleData)
+            }
         }
     }
 }
