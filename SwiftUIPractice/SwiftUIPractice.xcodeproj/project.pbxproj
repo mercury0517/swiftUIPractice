@@ -18,6 +18,7 @@
 		609F25522867072F002FF266 /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609F25512867072F002FF266 /* TrailingIconLabelStyle.swift */; };
 		609F2554287AC782002FF266 /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609F2553287AC782002FF266 /* ScrumsView.swift */; };
 		609F25562882AC23002FF266 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609F25552882AC23002FF266 /* DetailView.swift */; };
+		60BE473F288D046100E53E04 /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BE473E288D046100E53E04 /* DetailEditView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		609F25512867072F002FF266 /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
 		609F2553287AC782002FF266 /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 		609F25552882AC23002FF266 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		60BE473E288D046100E53E04 /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				609F2553287AC782002FF266 /* ScrumsView.swift */,
 				607880B92854764A00E84EF0 /* SwiftUIPracticeApp.swift */,
 				609F25512867072F002FF266 /* TrailingIconLabelStyle.swift */,
+				60BE473E288D046100E53E04 /* DetailEditView.swift */,
 			);
 			path = SwiftUIPractice;
 			sourceTree = "<group>";
@@ -173,6 +176,7 @@
 				609F2554287AC782002FF266 /* ScrumsView.swift in Sources */,
 				609F25492866CDDA002FF266 /* MeetingView.swift in Sources */,
 				609F255028670539002FF266 /* CardView.swift in Sources */,
+				60BE473F288D046100E53E04 /* DetailEditView.swift in Sources */,
 				607880BA2854764A00E84EF0 /* SwiftUIPracticeApp.swift in Sources */,
 				609F25522867072F002FF266 /* TrailingIconLabelStyle.swift in Sources */,
 			);
